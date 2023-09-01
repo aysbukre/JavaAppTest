@@ -1,11 +1,12 @@
 package aysenurbukre.gokdogan.project.coffe_order_app;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import aysenurbukre.gokdogan.project.coffe_order_app.controller.CoffeeShop;
 
 public class CoffeeShopTest {
 
@@ -28,7 +29,7 @@ public class CoffeeShopTest {
                 "5. Mocha\n" +
                 "6. Americano\n" +
                 "7. Hot Water\n";
-        //assertEquals(expectedMenu, coffeeShop.displayMenu());
+        assertEquals(expectedMenu, coffeeShop.displayMenu());
     }
 
     @Test
@@ -43,7 +44,8 @@ public class CoffeeShopTest {
                 "- Espresso\n" +
                 "Enjoy your meal!\n" +
                 "---------------------------\n";
-        System.out.println("asdadasdsad");
+        
+        System.out.println("Test is successful");
     }
  
 }

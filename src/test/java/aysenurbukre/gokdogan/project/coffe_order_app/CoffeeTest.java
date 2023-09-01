@@ -6,6 +6,8 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
+import aysenurbukre.gokdogan.project.coffe_order_app.model.Coffee;
+
 public class CoffeeTest {
 
     @Test

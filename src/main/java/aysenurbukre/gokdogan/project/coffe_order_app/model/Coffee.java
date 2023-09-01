@@ -1,8 +1,7 @@
-package aysenurbukre.gokdogan.project.coffe_order_app;
+package aysenurbukre.gokdogan.project.coffe_order_app.model;
 
 public class Coffee {
-
-    private String name;
+	private String name;
     private String[] ingredients;
 
     public Coffee(String name, String[] ingredients) {
